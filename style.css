@@ -1,0 +1,79 @@
+body{
+    height: 100vh;
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    font-family: 'Outfit';
+    width: 350px;
+    background-color: hsl(216, 50%, 16%);
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+}
+img{
+    border-radius: 20px;
+    height: 300px;
+    width: 300px;
+}
+.vis{
+    opacity: 0;
+    border-radius: 20px;
+    height: 300px;
+    width: 300px;
+    background-color: cyan;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.vis:hover{
+    opacity: 0.5;
+}
+.desc{
+    color:white;
+}
+.desc h2:hover{
+    cursor: pointer;
+    color: cyan;
+}
+.value{
+    font-weight: 700;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+.value:nth-child(1){
+    margin-left: 1px;
+    color: cyan;
+}
+.value:nth-child(2){
+    color:hsl(215, 51%, 70%);
+}
+#bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#line{
+    width:-webkit-fill-available;
+    height: 1px;
+    background-color: hsl(215, 51%, 70%);
+}
+#avaitor{
+    height: 35px;
+    width: 35px;
+    border: 1px white solid;
+}
+span{
+    color:white;
+}
+span:hover{
+    cursor: pointer;
+    color: cyan;
+}
